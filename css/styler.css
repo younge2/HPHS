@@ -1,0 +1,155 @@
+body {
+	/*display: flex;
+	align-content: space-between;*/
+	background-color: black;
+}
+
+#gameBoard {
+	background-image: url(../images/NaxxBackground.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-position: fixed;*/
+	height: 100vh;
+	max-width: 142vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+   
+}
+
+.row {
+	width: 142vh;
+	height: 20vh;
+	border: 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	padding: 3vh 7vw 0 7vw;
+
+}
+.col-md-1 {
+	height: 15vh;
+	border: 1px solid black;
+}
+
+.hand {
+	width: 35vh;
+	border: 1px solid white;
+}
+#topHand {
+	/*align-self: flex-start;*/
+	height: 8vh;
+	margin-top: -3vh;
+}
+
+#botHand {
+	/*align-self: flex-end;*/
+	height: 13vh;
+}
+
+.handCard{
+	height: 10vh;
+	width: 7vh;
+	border: 1px solid black;
+	
+}
+
+
+.cardImg {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#bot1{
+	position: relative;
+	top: 0vh;
+	z-index: 1;
+}
+
+#bot2{
+	position: relative;
+	top: -10vh;
+	left: 3vh;
+	z-index: 2;
+}
+
+#bot3{
+	position: relative;
+	top: -20vh;
+	left: 6vh;
+	z-index: 3;
+}
+
+#bot4{
+	position: relative;
+	top: -30vh;
+	left: 9vh;
+	z-index: 4;
+}
+
+#bot5{
+	position: relative;
+	top: -40vh;
+	left: 12vh;
+	z-index: 5;
+}
+
+#bot6{
+	position: relative;
+	top: -50vh;
+	left: 15vh;
+	z-index: 6;
+
+}
+
+#bot7{
+	position: relative;
+	top: -60vh;
+	left: 18vh;
+	z-index: 7;
+}
+
+#bot8{
+	position: relative;
+	top: -70vh;
+	left: 21vh;
+	z-index: 8;
+}
+
+#bot9{
+	position: relative;
+	top: -80vh;
+	left: 24vh;
+	z-index: 9;
+}
+
+#bot10{
+	position: relative;
+	top: -90vh;
+	left: 27vh;
+	z-index: 10;
+}
+
+/*.col-md-1 {
+	height: 25vh;
+	border: 2px solid black;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+#Field {
+	background-image: url(../images/cobblestone.jpg);
+}
+
+#botPlayer{
+	/*background-color: #FACC2E;*/
+/*}
+
+#topPlayer {
+	background-color: #31B404;
+}
+*/*/
